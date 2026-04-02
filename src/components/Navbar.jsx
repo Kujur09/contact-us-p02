@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="logo-image">
-          <img src="../public/image/apple-logo.png" alt="Apple Logo" />
+          <img src="/image/apple-logo.png" alt="Apple Logo" />
         </div>
         <div>
           <ul className="nav-items">
