@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.logo-image{
+    /* border: 2px solid red; */
+    
+}
+
+.logo-image img{
+    width: 50px;
+}
+
+.nav-items{
+    /* border: 2px solid red; */
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+.nav-items li{
+    list-style-type: none;  
+    
+}
