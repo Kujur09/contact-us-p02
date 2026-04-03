@@ -2,7 +2,7 @@ import "../styles/contact-header.css";
 
 export const ContactHeader = () => {
   return (
-    <div>
+    <div className="main-container">
       <div>
         <div className="heading">
           <span className="contact">CONTACT</span>
@@ -16,31 +16,37 @@ export const ContactHeader = () => {
           impedit vitae officiis fugiat?
         </p>
       </div>
-      <div>
-        <div>
-          <div>
-            <button>
+      <div className="sub-container">
+        <div className="box-1">
+          <div className="btn-box">
+            <button className="btn">
               <img src="/image/chat-icon.png" alt="chat-icon" />
               Via Support Chat
             </button>
-            <button>
+            <button className="btn">
               <img src="/image/call-icon.png" alt="call-icon" />
               Via Call
             </button>
           </div>
-          <div>
+          <div className="form-box">
             <button>Via Email Form</button>
-            <form action="">
-              <label htmlFor="">Name</label>
-              <input type="text" />
-              <label htmlFor="">E-Mail</label>
-              <input type="email" />
-              <label htmlFor="">Text</label>
-              <textarea rows={10} cols={20} />
+            <form action="" className="form">
+              <div>
+                <label htmlFor="">Name</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label htmlFor="">E-Mail</label>
+                <input type="email" />
+              </div>
+              <div>
+                <label htmlFor="">Text</label>
+                <textarea rows={12} cols={50} />
+              </div>
             </form>
           </div>
         </div>
-        <div>
+        <div className="box-2">
           <img src="/image/customer-support-image.jpeg" alt="24/7 support" />
         </div>
       </div>

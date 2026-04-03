@@ -1,3 +1,65 @@
+.main-container{
+    width: 80vw;
+    /* border: 2px solid red; */
+    margin : auto;
+}
+
+.sub-container{
+    display: flex;
+}
+
+.btn-box{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.btn{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    background-color: rgb(209, 150, 150);
+    color: white;
+    /* border: 2px solid red; */
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.btn img{
+    color: white;
+    width: 1rem;
+    padding-right: 10px;
+}
+
+.box-1{
+    width: 50%;
+}
+.box-2 img{
+    width: 35rem;
+}
+
+.form-box{
+    /* border: 2px solid black; */
+    width: 85%;
+    margin: 4px auto;
+}
+
+.form-box button{
+    width: 100%;
+}
+
+.form-box input{
+    width: 92%;
+}
+
+.form textarea{
+    width: 90%;
+
+}
 .heading{
     /* border: 2px solid red; */
     width: fit-content;
